@@ -1,6 +1,7 @@
 import QuickChart from "quickchart-js";
 import fs from "fs";
-import luxon from "luxon";
+import * as luxon from "luxon";
+
 
 async function timeline_graph(
   data = {},
