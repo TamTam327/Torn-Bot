@@ -23,7 +23,8 @@ try {
 	}
 }
 
-const token = config.token
+const token = process.env.token || config.token
+
 
 import {Database} from "./database.js"
 
